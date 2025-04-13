@@ -11,18 +11,17 @@ body {
 
 header {
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-image: url(/assets/homepage/background.png);
+  background-image: url(/assets/services/background.png);
   background-size: cover;
   color: white;
 }
 header .top_header {
   width: 70%;
-  height: 10%;
+  height: 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -30,6 +29,7 @@ header .top_header {
 }
 header .top_header nav {
   width: 60%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -50,223 +50,65 @@ header .top_header nav ul li a {
   color: white;
 }
 header .main_header {
-  height: 80%;
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-header .main_header img {
-  width: 40%;
-}
-header .main_header .main_header_text h1 {
-  font-size: 72px;
-  height: 55%;
-}
-header .main_header .main_header_text .main_header_bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 40%;
-  height: 40%;
-}
-header .main_header .main_header_text .main_header_bottom div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 40%;
-}
-header .main_header .main_header_text .main_header_bottom div img {
-  width: 40%;
-}
-header ul {
-  width: 70%;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-header ul .li_main {
-  font-size: 20px;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-header ul .li_main img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-
-.info {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  width: 90%;
-  height: 20vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.info p {
-  width: 40%;
-  height: 100%;
-  font-size: 28px;
-}
-.info ul {
-  width: 40%;
-  height: 100%;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.info ul li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 50%;
-  height: 35%;
-}
-.info ul li img {
-  width: 75px;
-  height: 75px;
-  display: flex;
-  align-self: center;
-  justify-self: center;
-}
-.info ul li p {
-  width: 70%;
-  font-size: 14px;
-}
-
-.clients {
-  width: 90%;
-  height: 15vh;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-}
-.clients ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.clients ul li {
-  width: 10%;
-}
-.clients ul li img {
-  width: 80%;
-}
-
-.about {
-  width: 80%;
-  height: 60vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.about img {
-  height: 100%;
-}
-.about div {
-  width: 30%;
-}
-.about div h2 {
-  font-size: 46px;
-}
-
-.figures {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  width: 60%;
-  height: 10vh;
   text-align: center;
-}
-.figures ul {
-  width: 100%;
-  height: 100%;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.figures ul li figure p {
-  font-size: 32px;
-}
-.figures ul li p {
-  font-size: 14px;
-}
-
-.services {
-  height: 65vh;
-  width: 70%;
+  width: 50%;
+  height: 75%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
-.services h2 {
-  font-size: 46px;
-  margin: 0;
+header .main_header .home p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
-.services .button_services {
-  width: 100%;
-  height: 20%;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+header .main_header p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
-.services .button_services li {
-  width: 25%;
-  height: 80%;
-}
-.services .button_services li .button_0 {
-  width: 161px;
-  height: 44px;
-  background-color: rgba(255, 214, 219, 0);
-  border: none;
-  color: #9A9CA5;
-}
-.services .main_services {
-  width: 100%;
-  height: 70%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.services .main_services div h4 {
-  font-size: 28px;
-  margin: 0;
-}
-.services .main_services div ul {
-  list-style: none;
-  line-height: 160%;
-}
-.services .main_services div ul li {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.services .main_services div ul li img {
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
-}
-.services .main_services div div {
+header .main_header .main_bottom {
   width: 60%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+header .main_header .phone {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+header .main_header .phone p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.SMM, .SEO, .Research, .PR, .PTM {
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.SMM .text h3, .SEO .text h3, .Research .text h3, .PR .text h3, .PTM .text h3 {
+  font-size: 32px;
+}
+.SMM .text p, .SEO .text p, .Research .text p, .PR .text p, .PTM .text p {
+  color: rgb(120, 122, 128);
+}
+.SMM .text div, .SEO .text div, .Research .text div, .PR .text div, .PTM .text div {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SMM div, .SEO div, .Research div, .PR div, .PTM div {
+  width: 45%;
 }
 
 .CTA {
@@ -336,58 +178,40 @@ header ul .li_main img {
   width: 50%;
 }
 
-.FAQ {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  height: 60vh;
-  width: 70%;
+.markets {
+  text-align: center;
+  width: 80%;
+  height: 35vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.FAQ img {
-  width: 40%;
-}
-.FAQ div {
-  width: 80%;
-}
-.FAQ div h3 {
+.markets h2 {
   font-size: 46px;
 }
-.FAQ div ul {
-  width: 100%;
+.markets ul {
   list-style: none;
-}
-.FAQ div ul li {
   width: 100%;
+  height: 70%;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  line-height: 160%;
+  justify-content: space-between;
 }
-.FAQ div ul li img {
-  width: 20px;
-  height: 20px;
-  margin-right: 1vw;
+.markets ul li {
+  width: 20%;
 }
-.FAQ div ul li h6 {
+.markets ul li h6 {
   font-size: 20px;
   margin: 0;
 }
-.FAQ div ul li p {
+.markets ul li p {
+  font-size: 16px;
   color: rgb(120, 122, 128);
 }
-.FAQ div button {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.FAQ div button img {
-  width: 16px;
-  height: 16px;
-  margin-left: 10px;
+.markets ul li img {
+  width: 48px;
+  height: 48px;
 }
 
 .casestudies {
@@ -452,103 +276,24 @@ header ul .li_main img {
   align-items: center;
 }
 
-.benefits {
-  width: 70%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.clients {
+  width: 90%;
+  height: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
-.benefits h2 {
-  font-size: 46px;
-}
-.benefits div {
-  width: 100%;
-  height: 85%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-}
-.benefits div img {
-  height: 70%;
-  display: flex;
-  align-self: center;
-  justify-self: center;
-}
-.benefits div ul {
+.clients ul {
   list-style: none;
-  width: 30%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.benefits div ul li {
-  width: 100%;
-  height: 32%;
-}
-.benefits div ul li div {
-  width: 100%;
-  height: 80%;
-  box-shadow: 5px 5px 5px 5px rgb(219, 219, 219);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-.benefits div ul li div img {
-  width: 40px;
-  height: 40px;
-}
-.benefits div ul li div h6 {
-  font-size: 16px;
-  margin: 0;
-}
-.benefits div ul li div p {
-  font-size: 14px;
-}
-
-.pricing {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  width: 70%;
-  height: 70vh;
-}
-.pricing .cards_pricing {
-  width: 100%;
-  height: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
-.testimonials {
-  width: 70%;
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.clients ul li {
+  width: 10%;
 }
-.testimonials .bottom_testimonials {
-  width: 95%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.testimonials .bottom_testimonials .comment {
+.clients ul li img {
   width: 80%;
-  height: 80%;
-  box-shadow: 5px 5px 5px 5px gray;
-}
-.testimonials .bottom_testimonials button {
-  width: 40px;
-  height: 40px;
 }
 
 .blog {
@@ -716,4 +461,4 @@ a {
 @font-face {
   font-family: Lato;
   src: url(/Lato/Lato-Black.ttf);
-}/*# sourceMappingURL=homepage.css.map */
+}/*# sourceMappingURL=services.css.map */
