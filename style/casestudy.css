@@ -15,9 +15,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/assets/services/background.png);
+  background-image: url(/assets/casestudy/background_casestudy.png);
   background-size: cover;
   color: white;
+}
+header h1 {
+  font-size: 45px;
 }
 header .top_header {
   width: 70%;
@@ -51,7 +54,7 @@ header .top_header nav ul li a {
 }
 header .main_header {
   text-align: center;
-  width: 50%;
+  width: 60%;
   height: 75%;
   display: flex;
   flex-direction: column;
@@ -61,7 +64,7 @@ header .main_header {
 header .main_header .home {
   justify-self: center;
   align-self: center;
-  width: 12%;
+  width: 65%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -75,57 +78,9 @@ header .main_header p {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
 }
-header .main_header .main_bottom {
-  width: 60%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-align: start;
-}
-header .main_header .phone {
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-align: start;
-}
-header .main_header .phone p {
-  font-size: 14px;
-  margin: 0;
-}
-
-.SMM, .SEO, .Research, .PR, .PTM {
-  width: 70%;
-  height: 50vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.SMM .text h3, .SEO .text h3, .Research .text h3, .PR .text h3, .PTM .text h3 {
-  font-size: 32px;
-}
-.SMM .text p, .SEO .text p, .Research .text p, .PR .text p, .PTM .text p {
-  color: rgb(120, 122, 128);
-}
-.SMM .text div, .SEO .text div, .Research .text div, .PR .text div, .PTM .text div {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.SMM div, .SEO div, .Research div, .PR div, .PTM div {
-  width: 45%;
-}
-.SMM img, .SEO img, .Research img, .PR img, .PTM img {
-  width: 55%;
-}
 
 .CTA {
   margin-top: 15vh;
-  margin-bottom: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -190,44 +145,65 @@ header .main_header .phone p {
   width: 50%;
 }
 
-.markets {
-  text-align: center;
+.testimonials {
   width: 80%;
-  height: 35vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-.markets h2 {
+.testimonials h2 {
   font-size: 46px;
 }
-.markets ul {
-  list-style: none;
-  width: 100%;
-  height: 70%;
+.testimonials .bottom_testimonials {
+  width: 95%;
+  height: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(/assets/homepage/background_gray.png);
+  background-size: cover;
+  background-size: cover;
+}
+.testimonials .bottom_testimonials .comment {
+  width: 80%;
+  height: 60%;
+  background-color: white;
+}
+.testimonials .bottom_testimonials .comment .profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+  width: 35%;
 }
-.markets ul li {
-  width: 20%;
+.testimonials .bottom_testimonials .comment .profile img {
+  width: 72px;
+  height: 72px;
 }
-.markets ul li h6 {
-  font-size: 20px;
+.testimonials .bottom_testimonials .comment .profile h6 {
+  color: black;
+  font-size: 16px;
   margin: 0;
 }
-.markets ul li p {
-  font-size: 16px;
-  color: rgb(120, 122, 128);
+.testimonials .bottom_testimonials .comment .profile p {
+  font-size: 14px;
 }
-.markets ul li img {
-  width: 48px;
-  height: 48px;
+.testimonials .bottom_testimonials .comment p {
+  color: rgb(66, 69, 81);
+  font-size: 20px;
+}
+.testimonials .bottom_testimonials button {
+  width: 40px;
+  height: 40px;
+  background-color: #7772F1;
+  border-radius: 20px;
+  border: #7772F1;
 }
 
 .casestudies {
-  margin-top: 15vh;
   margin-bottom: 15vh;
   width: 100%;
   height: 60vh;
@@ -332,82 +308,6 @@ header .main_header .phone p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
-
-.clients {
-  width: 90%;
-  height: 5vh;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-}
-.clients ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.clients ul li {
-  width: 10%;
-}
-.clients ul li img {
-  width: 80%;
-}
-
-.blog {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  width: 70%;
-  height: 50vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.blog .blog_text {
-  width: 20%;
-}
-.blog .post {
-  width: 30%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.blog .post img {
-  width: 100%;
-}
-.blog .post .meta {
-  width: 85%;
-  height: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.blog .post .meta p {
-  font-size: 12px;
-}
-.blog .post .more {
-  width: 40%;
-  height: 10%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-.blog .post .more p {
-  color: black;
-}
-.blog .post .more img {
-  width: 20px;
-  height: 20px;
-}
-.blog .post h6 {
-  font-size: 20px;
-  margin: 0;
-}
-.blog .post p {
-  font-size: 16px;
-  color: rgb(120, 122, 128);
 }
 
 footer {
@@ -554,11 +454,8 @@ a {
   border: 1px solid #7772F1;
   color: #7772F1;
 }
-.button_with_border a {
-  color: #7772F1;
-}
 
 @font-face {
   font-family: Lato;
   src: url(/Lato/Lato-Black.ttf);
-}/*# sourceMappingURL=services.css.map */
+}/*# sourceMappingURL=casestudy.css.map */

@@ -8,15 +8,19 @@ body {
     align-items: center;
     font-family: Lato;
 }
+
 header {
     width: 100vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/assets/services/background.png);
+    background-image: url(/assets/casestudy/background_casestudy.png);
     background-size: cover;
     color: white;
+    h1 {
+            font-size: 45px;
+    }
     .top_header {
         width: 70%;
         height: 15%;
@@ -53,84 +57,37 @@ header {
         }
 
     }
-    .main_header{
+
+    .main_header {
         text-align: center;
-        width: 50%;
+        width: 60%;
         height: 75%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        .home{
+
+        .home {
             justify-self: center;
             align-self: center;
-            width: 12%;
+            width: 65%;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            p{
+            p {
                 font-size: 14px;
                 color: rgba(255, 255, 255, 0.5);
             }
         }
-        p{
-          font-size: 20px;
-          color: rgba(255, 255, 255, 0.5);  
+        p {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.5);
         }
-        .main_bottom{
-            width: 60%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            text-align: start;
-        }
-        .phone{
-            width: 40%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            text-align: start;
-            p {
-                font-size: 14px;
-                margin: 0;
-            }
-        }
-    }
-}
-.SMM, .SEO, .Research, .PR, .PTM{
-    width: 70%;
-    height: 50vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    .text{
-        h3{
-            font-size: 32px;
-        }
-        p{
-            color: rgba(120, 122, 128, 1);
-        }
-        div{
-            width: 90%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-    }
-    div{
-        width: 45%;
-    }
-    img{
-        width: 55%;
     }
 }
 .CTA {
     margin-top: 15vh;
-    margin-bottom: 15vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -205,44 +162,73 @@ header {
     }
 
 }
-.markets{
-    text-align: center;
+.testimonials {
     width: 80%;
-    height: 35vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    h2{
-        font-size: 46px;
 
+    h2 {
+        font-size: 46px;
     }
-    ul{
-        list-style: none;
-        width: 100%;
-        height: 70%;
+
+    .bottom_testimonials {
+        width: 95%;
+        height: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        li{
-            width: 20%;
-            h6{
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(/assets/homepage/background_gray.png);
+        background-size: cover;
+        background-size: cover;
+
+        .comment {
+            width: 80%;
+            height: 60%;
+            background-color: white;
+
+            .profile {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 35%;
+
+                img {
+                    width: 72px;
+                    height: 72px;
+                }
+
+                h6 {
+                    color: black;
+                    font-size: 16px;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            p {
+                color: rgba(66, 69, 81, 1);
                 font-size: 20px;
-                margin: 0;
             }
-            p{
-                font-size: 16px;
-                color: rgba(120, 122, 128, 1);
-            }
-            img{
-                width: 48px;
-                height: 48px;
-            }
+        }
+
+        button {
+            width: 40px;
+            height: 40px;
+            background-color: #7772F1;
+            border-radius: 20px;
+            border: #7772F1;
         }
     }
 }
 .casestudies {
-    margin-top: 15vh;
     margin-bottom: 15vh;
     width: 100%;
     height: 60vh;
@@ -366,94 +352,6 @@ header {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-    }
-}
-.clients {
-    width: 90%;
-    height: 5vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-
-    ul {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
-        li {
-            width: 10%;
-
-            img {
-                width: 80%;
-            }
-        }
-    }
-}
-.blog {
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    width: 70%;
-    height: 50vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    .blog_text {
-        width: 20%;
-    }
-
-    .post {
-        width: 30%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        img {
-            width: 100%;
-        }
-
-        .meta {
-            width: 85%;
-            height: 10%;
-            display: flex;
-            flex-direction: row;
-
-            p {
-                font-size: 12px;
-            }
-
-            justify-content: space-between;
-        }
-
-        .more {
-            width: 40%;
-            height: 10%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-
-            p {
-                color: black;
-            }
-
-            img {
-                width: 20px;
-                height: 20px;
-            }
-        }
-
-        h6 {
-            font-size: 20px;
-            margin: 0;
-        }
-
-        p {
-            font-size: 16px;
-            color: rgba(120, 122, 128, 1);
-        }
     }
 }
 footer {
@@ -626,9 +524,6 @@ a {
     color: white;
     border: 1px solid #7772F1;
     color: #7772F1;
-    a{
-        color: #7772F1;
-    }
 }
 
 @font-face {

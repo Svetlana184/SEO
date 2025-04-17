@@ -8,6 +8,7 @@ body{
     align-items: center;
     font-family: Lato;
 }
+
 header{
     width: 100vw;
     height: 100vh;
@@ -187,7 +188,7 @@ header{
     margin-top: 15vh;
     margin-bottom: 15vh;
     width: 60%;
-    height: 10vh;
+    height: 25vh;
     text-align: center;
     ul{
         width: 100%;
@@ -198,20 +199,36 @@ header{
         justify-content: space-between;
         align-items: center;
         li{
-            figure{
-                p{
-                    font-size: 32px;
-                }
-            }
             p{
                 font-size: 14px;
+            }
+            h5 {
+                font-size: 32px;
+            }
+            div{
+                width: 148px;
+                height: 148px;
+                border-radius: 90px;
+            }
+            div#first{
+                border: rgba(248, 152, 40, 1) 3px solid;
+
+            }
+            div#second{
+                border: rgba(245, 47, 110, 1) 3px solid;
+            }
+            div#third{
+                border: rgba(90, 135, 252, 1) 3px solid;
+            }
+            div#fourth{
+                border: rgba(3, 206, 164, 1) 3px solid;
             }
         }
     }
 }
 .services{
-    height: 65vh;
-    width: 70%;
+    height: 85vh;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -246,7 +263,7 @@ header{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        div{
+        .services_text{
             h4{
                 font-size: 28px;
                 margin: 0;
@@ -266,17 +283,52 @@ header{
                 }
             }
             div{
-                width: 60%;
+                width: 85%;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
             }
         }
+        .pic_services {
+            width: 55%;
+            height: 100%;
+            background-image: url(/assets/homepage/bg-shape.png);
+            background-repeat: repeat;
+            img#likes {
+                position: relative;
+                top: 45%;
+                left: 5%;
+                z-index: 1;
+            }
+            img#followers {
+                position: relative;
+                top: 2%;
+                left: 70%;
+                z-index: 1;
+            }
+            img#youtube {
+                position: relative;
+                top: 65%;
+                left: 50%;
+                z-index: 1;
+            }
+            img#like {
+                position: relative;
+                top: -13%;
+                left: 50%;
+                z-index: 1;
+            }
+            img#dashboard{
+                position: relative;
+                top: -5%;
+                width: 582px;
+            }
+        }
     }
+    
 }
 .CTA{
     margin-top: 15vh;
-    margin-bottom: 15vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -344,7 +396,7 @@ header{
 .FAQ{
     margin-top: 15vh;
     margin-bottom: 15vh;
-    height: 60vh;
+    height: 70vh;
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -357,10 +409,15 @@ header{
         width: 80%;
         h3{
             font-size: 46px;
+            margin: 0;
         }
         ul{
             width: 100%;
             list-style: none;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             li{
                 width: 100%;
                 display: flex;
@@ -395,7 +452,6 @@ header{
     }
 }
 .casestudies{
-    margin-top: 15vh;
     margin-bottom: 15vh;
     width: 100%;
     height: 60vh;
@@ -429,24 +485,77 @@ header{
         width: 70%;
         height: 55%;
         .testimonials_1{
-            height: 100%;
-            width: 30%;
+            height: 90%;
+            width: 27%;
             background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+            box-shadow: 5px 5px 5px 5px #b8b9c0;
         }
         .testimonials_2{
-            height: 100%;
-            width: 30%;
-            background-image: url(/assets/homepage/test_card.png);
+            height: 90%;
+            width: 27%;
+            background:
+                    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                    url(/assets/homepage/test_card.png);
             background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            color: white;
+            box-shadow: 5px 5px 5px 5px #b8b9c0;
         }
         .testimonials_3{
-            height: 100%;
-            width: 30%;
+            height: 90%;
+            width: 27%;
             background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            box-shadow: 5px 5px 5px 5px #b8b9c0;
         }
+                .feature {
+                    height: 15%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+        
+                    div {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                    }
+        
+                    h6 {
+                        font-size: 20px;
+                        margin: 0;
+                    }
+        
+                    p {
+                        font-size: 12px;
+                    }
+                }
+        
+                h6 {
+                    font-size: 14px;
+                }
+        
+                p {
+                    font-size: 16px;
+                }
     }
     .testimonials_bottom{
-        width: 40%;
+        width: 30%;
         
     }
     div{
@@ -475,10 +584,11 @@ header{
         align-items: center;
         text-align: center;
         img{
-            height: 70%;
+            height: 60%;
             display: flex;
             align-self: center;
             justify-self: center;
+            margin-top: 10px
         }
         ul{
             list-style: none;
@@ -493,7 +603,7 @@ header{
                 div{
                     width: 100%;
                     height: 80%;
-                    box-shadow: 5px 5px 5px 5px rgb(219, 219, 219);
+                    border: #dbdbdb 1px solid;
                     display: flex;
                     flex-direction: column;
                     justify-content: flex-start;
@@ -519,38 +629,139 @@ header{
 .pricing{
     margin-top: 15vh;
     margin-bottom: 15vh;
-    width: 70%;
-    height: 70vh;
-    .cards_pricing{
-        width: 100%;
-        height: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-.testimonials{
-    width: 70%;
-    height: 40vh;
+    width: 80%;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    h2{
+        font-size: 46px;
+        margin: 0;
+    }
+    .pricing_button{
+        height: 10%;
+        button{
+            border-radius: 40px;
+        }
+    }
+    .cards_pricing{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 16px;
+            div{
+                height: 20%;
+            }
+            ul{
+                height: 55%;
+                list-style: none;
+                li{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin: 0;
+                    height: 10%;
+                    img{
+                        width: 16px;
+                        height: 16px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .card_purple{
+            border: #9A9CA5 1px solid;
+            h5{
+                font-size: 24px;
+                margin: 0;
+            }
+            h4{
+                color: #7772F1;
+            }
+            .price{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                h3{
+                    color: #7772F1;
+                    font-size: 46px;
+                }
+            }
+        }
+        .card_black{
+            background-color: rgba(30, 33, 44, 1);
+            color: white;
+            h4{
+                color: rgba(3, 206, 164, 1);
+            }
+        }
+    }
+}
+.testimonials{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-size: 46px;
+    }
     .bottom_testimonials{
         width: 95%;
         height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
+        background-image: url(/assets/homepage/background_gray.png);
+        background-size: cover;
+        background-size: cover;
         .comment{
             width: 80%;
-            height: 80%;
-            box-shadow: 5px 5px 5px 5px gray;
+            height: 60%;
+            background-color: white;
+            .profile{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 35%;
+                img{
+                    width: 72px;
+                    height: 72px;
+                }
+                h6{
+                    color: black;
+                    font-size: 16px;
+                    margin: 0;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            p{
+                color: rgba(66, 69, 81, 1);
+                font-size: 20px;
+            }
         }
         button{
             width: 40px;
             height: 40px;
+            background-color: #7772F1;
+            border-radius: 20px;
+            border: #7772F1;
         }
     }
 }
@@ -558,15 +769,54 @@ header{
     margin-top: 15vh;
     margin-bottom: 15vh;
     width: 70%;
-    height: 30vh;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    .blog_text{
+        width: 20%;
+    }
     .post{
         width: 30%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         img{
             width: 100%;
+        }
+        .meta{
+            width: 85%;
+            height: 10%;
+            display: flex;
+            flex-direction: row;
+            p{
+                font-size: 12px;
+            }
+            justify-content: space-between;
+        }
+        .more{
+            width: 40%;
+            height: 10%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                color: black;
+            }
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+        h6{
+            font-size: 20px;
+            margin: 0;
+        }
+        p{
+            font-size: 16px;
+            color: rgba(120, 122, 128, 1);
         }
     }
 }

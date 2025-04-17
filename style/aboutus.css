@@ -19,6 +19,9 @@ header {
   background-size: cover;
   color: white;
 }
+header h1 {
+  font-size: 55px;
+}
 header .top_header {
   width: 70%;
   height: 15%;
@@ -51,7 +54,7 @@ header .top_header nav ul li a {
 }
 header .main_header {
   text-align: center;
-  width: 50%;
+  width: 60%;
   height: 75%;
   display: flex;
   flex-direction: column;
@@ -61,7 +64,7 @@ header .main_header {
 header .main_header .home {
   justify-self: center;
   align-self: center;
-  width: 12%;
+  width: 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -75,283 +78,122 @@ header .main_header p {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
 }
-header .main_header .main_bottom {
-  width: 60%;
+header ul {
+  width: 70%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header ul .li_main {
+  font-size: 20px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  text-align: start;
 }
-header .main_header .phone {
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-align: start;
-}
-header .main_header .phone p {
-  font-size: 14px;
-  margin: 0;
+header ul .li_main img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
-.SMM, .SEO, .Research, .PR, .PTM {
-  width: 70%;
-  height: 50vh;
+.figures {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  width: 60%;
+  height: 25vh;
+  text-align: center;
+}
+.figures ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.SMM .text h3, .SEO .text h3, .Research .text h3, .PR .text h3, .PTM .text h3 {
+.figures ul li p {
+  font-size: 14px;
+}
+.figures ul li h5 {
   font-size: 32px;
 }
-.SMM .text p, .SEO .text p, .Research .text p, .PR .text p, .PTM .text p {
-  color: rgb(120, 122, 128);
+.figures ul li div {
+  width: 148px;
+  height: 148px;
+  border-radius: 90px;
 }
-.SMM .text div, .SEO .text div, .Research .text div, .PR .text div, .PTM .text div {
-  width: 90%;
+.figures ul li div#first {
+  border: rgb(248, 152, 40) 3px solid;
+}
+.figures ul li div#second {
+  border: rgb(245, 47, 110) 3px solid;
+}
+.figures ul li div#third {
+  border: rgb(90, 135, 252) 3px solid;
+}
+.figures ul li div#fourth {
+  border: rgb(3, 206, 164) 3px solid;
+}
+
+.FAQ {
+  height: 70vh;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
-.SMM div, .SEO div, .Research div, .PR div, .PTM div {
-  width: 45%;
+.FAQ img {
+  width: 40%;
 }
-.SMM img, .SEO img, .Research img, .PR img, .PTM img {
-  width: 55%;
+.FAQ div {
+  width: 80%;
 }
-
-.CTA {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
+.FAQ div h3 {
+  font-size: 46px;
+  margin: 0;
+}
+.FAQ div ul {
+  width: 100%;
+  list-style: none;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.FAQ div ul li {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  line-height: 160%;
+}
+.FAQ div ul li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 1vw;
+}
+.FAQ div ul li h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.FAQ div ul li p {
+  color: rgb(120, 122, 128);
+}
+.FAQ div button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  background-image: url(/assets/homepage/background_TCA.png);
-  background-size: cover;
-  width: 100%;
-  height: 60vh;
-  color: white;
 }
-.CTA .main_CTA {
-  width: 70%;
-  height: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.CTA .main_CTA .request_CTA {
-  width: 50%;
-  height: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.CTA .main_CTA .request_CTA .forms {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.CTA .main_CTA .request_CTA .forms form {
-  width: 45%;
-  height: 100%;
-}
-.CTA .main_CTA .request_CTA .forms form input {
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 100%;
-  height: 100%;
-}
-.CTA .main_CTA .request_CTA .last_form {
-  width: 100%;
-  height: 10%;
-}
-.CTA .main_CTA .request_CTA .last_form input {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-}
-.CTA .main_CTA .request_CTA h3 {
-  font-size: 46px;
-  margin: 0;
-}
-.CTA .main_CTA .request_CTA .bottom_request {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.CTA .main_CTA .request_CTA .bottom_request form {
-  width: 50%;
-}
-
-.markets {
-  text-align: center;
-  width: 80%;
-  height: 35vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.markets h2 {
-  font-size: 46px;
-}
-.markets ul {
-  list-style: none;
-  width: 100%;
-  height: 70%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.markets ul li {
-  width: 20%;
-}
-.markets ul li h6 {
-  font-size: 20px;
-  margin: 0;
-}
-.markets ul li p {
-  font-size: 16px;
-  color: rgb(120, 122, 128);
-}
-.markets ul li img {
-  width: 48px;
-  height: 48px;
-}
-
-.casestudies {
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  width: 100%;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: rgb(244, 245, 246);
-  align-items: center;
-}
-.casestudies .testimonials_top {
-  width: 70%;
-}
-.casestudies .testimonials_top h2 {
-  font-size: 46px;
-}
-.casestudies .testimonials_top .button1 {
-  background-color: rgba(120, 122, 128, 0);
-  border: none;
-}
-.casestudies .testimonials_top .button1 img {
-  width: 24px;
-  height: 24px;
-}
-.casestudies .testimonials_top .button2 {
-  width: 49px;
-  height: 49px;
-  background-color: #7772F1;
-  border-radius: 40px;
-  border: #7772F1;
-}
-.casestudies .testimonials_center {
-  width: 70%;
-  height: 55%;
-}
-.casestudies .testimonials_center .testimonials_1 {
-  height: 90%;
-  width: 27%;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 20px;
-  box-shadow: 5px 5px 5px 5px #b8b9c0;
-}
-.casestudies .testimonials_center .testimonials_2 {
-  height: 90%;
-  width: 27%;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/homepage/test_card.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
-  color: white;
-  box-shadow: 5px 5px 5px 5px #b8b9c0;
-}
-.casestudies .testimonials_center .testimonials_3 {
-  height: 90%;
-  width: 27%;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
-  box-shadow: 5px 5px 5px 5px #b8b9c0;
-}
-.casestudies .testimonials_center .feature {
-  height: 15%;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.casestudies .testimonials_center .feature div {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.casestudies .testimonials_center .feature h6 {
-  font-size: 20px;
-  margin: 0;
-}
-.casestudies .testimonials_center .feature p {
-  font-size: 12px;
-}
-.casestudies .testimonials_center h6 {
-  font-size: 14px;
-}
-.casestudies .testimonials_center p {
-  font-size: 16px;
-}
-.casestudies .testimonials_bottom {
-  width: 30%;
-}
-.casestudies div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.clients {
-  width: 90%;
-  height: 5vh;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
-}
-.clients ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.clients ul li {
-  width: 10%;
-}
-.clients ul li img {
-  width: 80%;
+.FAQ div button img {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
 }
 
 .blog {
@@ -554,11 +396,8 @@ a {
   border: 1px solid #7772F1;
   color: #7772F1;
 }
-.button_with_border a {
-  color: #7772F1;
-}
 
 @font-face {
   font-family: Lato;
   src: url(/Lato/Lato-Black.ttf);
-}/*# sourceMappingURL=services.css.map */
+}/*# sourceMappingURL=aboutus.css.map */

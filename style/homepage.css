@@ -186,7 +186,7 @@ header ul .li_main img {
   margin-top: 15vh;
   margin-bottom: 15vh;
   width: 60%;
-  height: 10vh;
+  height: 25vh;
   text-align: center;
 }
 .figures ul {
@@ -198,16 +198,33 @@ header ul .li_main img {
   justify-content: space-between;
   align-items: center;
 }
-.figures ul li figure p {
-  font-size: 32px;
-}
 .figures ul li p {
   font-size: 14px;
 }
+.figures ul li h5 {
+  font-size: 32px;
+}
+.figures ul li div {
+  width: 148px;
+  height: 148px;
+  border-radius: 90px;
+}
+.figures ul li div#first {
+  border: rgb(248, 152, 40) 3px solid;
+}
+.figures ul li div#second {
+  border: rgb(245, 47, 110) 3px solid;
+}
+.figures ul li div#third {
+  border: rgb(90, 135, 252) 3px solid;
+}
+.figures ul li div#fourth {
+  border: rgb(3, 206, 164) 3px solid;
+}
 
 .services {
-  height: 65vh;
-  width: 70%;
+  height: 85vh;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -244,34 +261,68 @@ header ul .li_main img {
   justify-content: space-between;
   align-items: center;
 }
-.services .main_services div h4 {
+.services .main_services .services_text h4 {
   font-size: 28px;
   margin: 0;
 }
-.services .main_services div ul {
+.services .main_services .services_text ul {
   list-style: none;
   line-height: 160%;
 }
-.services .main_services div ul li {
+.services .main_services .services_text ul li {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.services .main_services div ul li img {
+.services .main_services .services_text ul li img {
   width: 16px;
   height: 16px;
   margin-right: 5px;
 }
-.services .main_services div div {
-  width: 60%;
+.services .main_services .services_text div {
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.services .main_services .pic_services {
+  width: 55%;
+  height: 100%;
+  background-image: url(/assets/homepage/bg-shape.png);
+  background-repeat: repeat;
+}
+.services .main_services .pic_services img#likes {
+  position: relative;
+  top: 45%;
+  left: 5%;
+  z-index: 1;
+}
+.services .main_services .pic_services img#followers {
+  position: relative;
+  top: 2%;
+  left: 70%;
+  z-index: 1;
+}
+.services .main_services .pic_services img#youtube {
+  position: relative;
+  top: 65%;
+  left: 50%;
+  z-index: 1;
+}
+.services .main_services .pic_services img#like {
+  position: relative;
+  top: -13%;
+  left: 50%;
+  z-index: 1;
+}
+.services .main_services .pic_services img#dashboard {
+  position: relative;
+  top: -5%;
+  width: 582px;
+}
 
 .CTA {
   margin-top: 15vh;
-  margin-bottom: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -339,7 +390,7 @@ header ul .li_main img {
 .FAQ {
   margin-top: 15vh;
   margin-bottom: 15vh;
-  height: 60vh;
+  height: 70vh;
   width: 70%;
   display: flex;
   flex-direction: row;
@@ -354,10 +405,15 @@ header ul .li_main img {
 }
 .FAQ div h3 {
   font-size: 46px;
+  margin: 0;
 }
 .FAQ div ul {
   width: 100%;
   list-style: none;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .FAQ div ul li {
   width: 100%;
@@ -391,7 +447,6 @@ header ul .li_main img {
 }
 
 .casestudies {
-  margin-top: 15vh;
   margin-bottom: 15vh;
   width: 100%;
   height: 60vh;
@@ -427,23 +482,69 @@ header ul .li_main img {
   height: 55%;
 }
 .casestudies .testimonials_center .testimonials_1 {
-  height: 100%;
-  width: 30%;
+  height: 90%;
+  width: 27%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px #b8b9c0;
 }
 .casestudies .testimonials_center .testimonials_2 {
-  height: 100%;
-  width: 30%;
-  background-image: url(/assets/homepage/test_card.png);
+  height: 90%;
+  width: 27%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/homepage/test_card.png);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  color: white;
+  box-shadow: 5px 5px 5px 5px #b8b9c0;
 }
 .casestudies .testimonials_center .testimonials_3 {
-  height: 100%;
-  width: 30%;
+  height: 90%;
+  width: 27%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px #b8b9c0;
+}
+.casestudies .testimonials_center .feature {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.casestudies .testimonials_center .feature div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.casestudies .testimonials_center .feature h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.casestudies .testimonials_center .feature p {
+  font-size: 12px;
+}
+.casestudies .testimonials_center h6 {
+  font-size: 14px;
+}
+.casestudies .testimonials_center p {
+  font-size: 16px;
 }
 .casestudies .testimonials_bottom {
-  width: 40%;
+  width: 30%;
 }
 .casestudies div {
   display: flex;
@@ -473,10 +574,11 @@ header ul .li_main img {
   text-align: center;
 }
 .benefits div img {
-  height: 70%;
+  height: 60%;
   display: flex;
   align-self: center;
   justify-self: center;
+  margin-top: 10px;
 }
 .benefits div ul {
   list-style: none;
@@ -493,7 +595,7 @@ header ul .li_main img {
 .benefits div ul li div {
   width: 100%;
   height: 80%;
-  box-shadow: 5px 5px 5px 5px rgb(219, 219, 219);
+  border: #dbdbdb 1px solid;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -514,25 +616,96 @@ header ul .li_main img {
 .pricing {
   margin-top: 15vh;
   margin-bottom: 15vh;
-  width: 70%;
-  height: 70vh;
+  width: 80%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing h2 {
+  font-size: 46px;
+  margin: 0;
+}
+.pricing .pricing_button {
+  height: 10%;
+}
+.pricing .pricing_button button {
+  border-radius: 40px;
 }
 .pricing .cards_pricing {
   width: 100%;
-  height: 80%;
+  height: 70%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
+.pricing .cards_pricing div {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+}
+.pricing .cards_pricing div div {
+  height: 20%;
+}
+.pricing .cards_pricing div ul {
+  height: 55%;
+  list-style: none;
+}
+.pricing .cards_pricing div ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  height: 10%;
+}
+.pricing .cards_pricing div ul li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.pricing .cards_pricing .card_purple {
+  border: #9A9CA5 1px solid;
+}
+.pricing .cards_pricing .card_purple h5 {
+  font-size: 24px;
+  margin: 0;
+}
+.pricing .cards_pricing .card_purple h4 {
+  color: #7772F1;
+}
+.pricing .cards_pricing .card_purple .price {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.pricing .cards_pricing .card_purple .price h3 {
+  color: #7772F1;
+  font-size: 46px;
+}
+.pricing .cards_pricing .card_black {
+  background-color: rgb(30, 33, 44);
+  color: white;
+}
+.pricing .cards_pricing .card_black h4 {
+  color: rgb(3, 206, 164);
+}
 
 .testimonials {
-  width: 70%;
-  height: 40vh;
+  width: 80%;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.testimonials h2 {
+  font-size: 46px;
 }
 .testimonials .bottom_testimonials {
   width: 95%;
@@ -540,32 +713,101 @@ header ul .li_main img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  background-image: url(/assets/homepage/background_gray.png);
+  background-size: cover;
+  background-size: cover;
 }
 .testimonials .bottom_testimonials .comment {
   width: 80%;
-  height: 80%;
-  box-shadow: 5px 5px 5px 5px gray;
+  height: 60%;
+  background-color: white;
+}
+.testimonials .bottom_testimonials .comment .profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+.testimonials .bottom_testimonials .comment .profile img {
+  width: 72px;
+  height: 72px;
+}
+.testimonials .bottom_testimonials .comment .profile h6 {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+}
+.testimonials .bottom_testimonials .comment .profile p {
+  font-size: 14px;
+}
+.testimonials .bottom_testimonials .comment p {
+  color: rgb(66, 69, 81);
+  font-size: 20px;
 }
 .testimonials .bottom_testimonials button {
   width: 40px;
   height: 40px;
+  background-color: #7772F1;
+  border-radius: 20px;
+  border: #7772F1;
 }
 
 .blog {
   margin-top: 15vh;
   margin-bottom: 15vh;
   width: 70%;
-  height: 30vh;
+  height: 50vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.blog .blog_text {
+  width: 20%;
+}
 .blog .post {
   width: 30%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .blog .post img {
   width: 100%;
+}
+.blog .post .meta {
+  width: 85%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blog .post .meta p {
+  font-size: 12px;
+}
+.blog .post .more {
+  width: 40%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog .post .more p {
+  color: black;
+}
+.blog .post .more img {
+  width: 20px;
+  height: 20px;
+}
+.blog .post h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.blog .post p {
+  font-size: 16px;
+  color: rgb(120, 122, 128);
 }
 
 footer {
