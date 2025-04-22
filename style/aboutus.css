@@ -139,6 +139,46 @@ header ul .li_main img {
   border: rgb(3, 206, 164) 3px solid;
 }
 
+.video {
+  width: 80%;
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/about/video.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.video button#play {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.video button#play img {
+  width: 26px;
+  height: 26px;
+}
+.video button#volume_off {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.video button#volume_off img {
+  width: 20px;
+  height: 20px;
+}
+
 .FAQ {
   height: 70vh;
   width: 70%;
