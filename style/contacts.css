@@ -99,6 +99,143 @@ header .main_header .phone p {
   margin: 0;
 }
 
+.contact_form {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_form img {
+  height: 60%;
+}
+.contact_form .left_form {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact_form .left_form h3 {
+  font-size: 46px;
+  margin: 0;
+}
+.contact_form .left_form h6 {
+  font-size: 16px;
+  color: #424551;
+  margin: 0;
+}
+.contact_form .left_form .services {
+  width: 100%;
+  height: 10%;
+}
+.contact_form .left_form .services ul {
+  list-style: none;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact_form .left_form .services ul li {
+  width: 15%;
+  height: 100%;
+}
+.contact_form .left_form .services ul li button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 80%;
+}
+.contact_form .left_form .form_line1 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_form .left_form .form_line1 div {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact_form .left_form .form_line1 div form {
+  width: 100%;
+  height: 60%;
+}
+.contact_form .left_form .form_line2 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact_form .left_form .form_line2 form {
+  width: 100%;
+  height: 70%;
+}
+.contact_form .left_form .form_line2 form input {
+  width: 100%;
+  height: 100%;
+}
+.contact_form .left_form .agreemnt {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact_form .left_form .agreemnt .form_check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 10%;
+  width: 60%;
+}
+.contact_form .left_form .agreemnt .form_check input {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
+.contact_form .left_form .agreemnt .form_check label {
+  width: 90%;
+}
+.contact_form .left_form .budget {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact_form .left_form .budget .create_line {
+  height: 1px;
+  width: 100%;
+  background-color: #D7DADD;
+}
+.contact_form .left_form .budget ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 10px;
+}
+.contact_form .left_form input {
+  width: 100%;
+  height: 80%;
+  background-color: #D7DADD;
+  border: none;
+  border-radius: 10px;
+}
+
 footer {
   background-color: rgb(30, 33, 44);
   width: 100%;

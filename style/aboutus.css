@@ -141,12 +141,14 @@ header ul .li_main img {
 
 .video {
   width: 80%;
-  height: 50vh;
+  height: 60vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/about/video.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .video button#play {
   width: 80px;
@@ -163,12 +165,13 @@ header ul .li_main img {
   height: 26px;
 }
 .video button#volume_off {
+  margin: 20px;
   width: 40px;
   height: 40px;
   border-radius: 20px;
   display: flex;
   justify-self: flex-end;
-  align-self: flex-end;
+  align-self: flex-start;
   justify-content: center;
   align-items: center;
   border: none;
@@ -177,6 +180,115 @@ header ul .li_main img {
 .video button#volume_off img {
   width: 20px;
   height: 20px;
+}
+
+.CTA_form {
+  width: 80%;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: #7772F1;
+  background-image: url(/assets/service/background\ \(1\).png);
+}
+.CTA_form h3 {
+  font-size: 40px;
+  margin: 0;
+}
+.CTA_form .forms {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.CTA_form .forms div {
+  width: 20%;
+  height: 100%;
+}
+.CTA_form .forms div form {
+  width: 100%;
+  height: 30%;
+}
+.CTA_form .forms div form input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: white;
+}
+.CTA_form .forms button {
+  background-color: black;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients {
+  width: 90%;
+  height: 30vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.clients h3 {
+  font-size: 46px;
+  margin: 0;
+}
+.clients ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.clients ul li {
+  width: 15%;
+}
+.clients ul li img {
+  width: 80%;
+}
+
+.team {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  width: 80%;
+  height: 70vh;
+  text-align: center;
+}
+.team h3 {
+  font-size: 46px;
+  margin: 0;
+}
+.team ul {
+  height: 95%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.team ul li {
+  height: 45%;
+  width: 22%;
+}
+.team ul li img {
+  height: 80%;
+}
+.team ul li h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.team ul li p {
+  color: #787A80;
 }
 
 .FAQ {
@@ -234,6 +346,39 @@ header ul .li_main img {
   width: 16px;
   height: 16px;
   margin-left: 10px;
+}
+
+.careers {
+  width: 100%;
+  height: 50vh;
+  background-color: #F4F5F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.careers div {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.careers div img {
+  height: 60%;
+}
+.careers div div {
+  text-align: left;
+  height: 60%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.careers div div h3 {
+  font-size: 46px;
+  margin: 0;
 }
 
 .blog {

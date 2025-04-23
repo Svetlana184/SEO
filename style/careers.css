@@ -96,6 +96,162 @@ header .main_header .phone p {
   margin: 0;
 }
 
+.job_openings {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  width: 80vw;
+  height: 120vh;
+}
+.job_openings .main_job {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+.job_openings .main_job li {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.job_openings .main_job li .title_job {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28px;
+}
+.job_openings .main_job li .title_job img {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+.job_openings .main_job .open_li {
+  height: 50%;
+}
+.job_openings .main_job .open_li div {
+  width: 60%;
+}
+.job_openings .main_job .open_li div ul {
+  list-style: disc;
+}
+.job_openings .main_job .open_li div h6, .job_openings .main_job .open_li div p, .job_openings .main_job .open_li div li {
+  font-size: 16px;
+  color: rgb(66, 69, 81);
+}
+.job_openings .main_job .open_li div .title_job {
+  width: 65%;
+  text-align: left;
+}
+
+.contact_form {
+  margin-bottom: 15vh;
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact_form .left_contact {
+  width: 35%;
+  height: 40%;
+}
+.contact_form .left_contact h2 {
+  font-size: 46px;
+}
+.contact_form .left_contact p {
+  font-size: 20px;
+}
+.contact_form .right_contact {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact_form .right_contact h6 {
+  color: #424551;
+  font-size: 16px;
+  margin: 0;
+}
+.contact_form .right_contact input {
+  width: 100%;
+  height: 80%;
+  background-color: #D7DADD;
+  border: none;
+  border-radius: 10px;
+}
+.contact_form .right_contact .form_line1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_form .right_contact .form_line1 div {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact_form .right_contact .form_line1 div form {
+  width: 100%;
+  height: 40%;
+}
+.contact_form .right_contact .form_line2 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact_form .right_contact .form_line2 form {
+  width: 100%;
+  height: 70%;
+}
+.contact_form .right_contact .form_line2 form input {
+  width: 100%;
+  height: 100%;
+}
+.contact_form .right_contact .button_form {
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact_form .right_contact .button_form button {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+}
+.contact_form .right_contact .button_form button img {
+  width: 22px;
+  height: 22px;
+}
+.contact_form .right_contact .form_check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  width: 85%;
+}
+.contact_form .right_contact .form_check input {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
+
 footer {
   background-color: rgb(30, 33, 44);
   width: 100%;

@@ -78,6 +78,125 @@ header .main_header p {
   font-size: 20px;
 }
 
+.subscribe {
+  width: 100%;
+  height: 50vh;
+  background-color: #1E212C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.subscribe .sub {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribe .sub img {
+  width: 40%;
+}
+.subscribe .sub div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.subscribe .sub div h3 {
+  font-size: 46px;
+  margin: 0;
+}
+.subscribe .sub div .email {
+  width: 100%;
+  height: 15%;
+}
+.subscribe .sub div .email input {
+  width: 60%;
+  height: 100%;
+}
+
+.articles {
+  width: 80%;
+  height: 60vh;
+}
+.articles .testimonials_top {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.articles .testimonials_top h2 {
+  font-size: 46px;
+}
+.articles .testimonials_top .button1 {
+  background-color: rgba(120, 122, 128, 0);
+  border: none;
+}
+.articles .testimonials_top .button1 img {
+  width: 24px;
+  height: 24px;
+}
+.articles .testimonials_top .button2 {
+  width: 49px;
+  height: 49px;
+  background-color: #7772F1;
+  border-radius: 40px;
+  border: #7772F1;
+}
+.articles .arts {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.articles .arts .post {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.articles .arts .post img {
+  width: 100%;
+}
+.articles .arts .post .meta {
+  width: 85%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.articles .arts .post .meta p {
+  font-size: 12px;
+}
+.articles .arts .post .more {
+  width: 25%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.articles .arts .post .more p {
+  color: black;
+}
+.articles .arts .post .more img {
+  width: 20px;
+  height: 20px;
+}
+.articles .arts .post h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.articles .arts .post p {
+  font-size: 16px;
+  color: rgb(120, 122, 128);
+}
+
 footer {
   background-color: rgb(30, 33, 44);
   width: 100%;

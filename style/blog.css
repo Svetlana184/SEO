@@ -106,6 +106,245 @@ header .main_header .phone p {
   margin: 0;
 }
 
+.latest_posts {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  width: 70%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.latest_posts .post {
+  width: 47%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.latest_posts .post img {
+  width: 100%;
+}
+.latest_posts .post .meta {
+  width: 85%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.latest_posts .post .meta p {
+  font-size: 12px;
+}
+.latest_posts .post .more {
+  width: 25%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.latest_posts .post .more p {
+  color: black;
+}
+.latest_posts .post .more img {
+  width: 20px;
+  height: 20px;
+}
+.latest_posts .post h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.latest_posts .post p {
+  font-size: 16px;
+  color: rgb(120, 122, 128);
+}
+
+.articles {
+  width: 80%;
+  height: 200vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.articles .article_left {
+  width: 65%;
+  height: 100%;
+}
+.articles .article_left .pages {
+  width: 30%;
+  height: 7%;
+}
+.articles .article_left .pages li {
+  width: 15%;
+}
+.articles .article_left ul {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.articles .article_left ul li {
+  width: 45%;
+  height: 30%;
+}
+.articles .article_left ul li .post {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.articles .article_left ul li .post img {
+  width: 100%;
+}
+.articles .article_left ul li .post .meta {
+  width: 85%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.articles .article_left ul li .post .meta p {
+  font-size: 12px;
+}
+.articles .article_left ul li .post .more {
+  width: 35%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.articles .article_left ul li .post .more p {
+  color: black;
+}
+.articles .article_left ul li .post .more img {
+  width: 20px;
+  height: 20px;
+}
+.articles .article_left ul li .post h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.articles .article_left ul li .post p {
+  font-size: 16px;
+  color: rgb(120, 122, 128);
+}
+.articles .article_right {
+  width: 25%;
+  height: 80%;
+}
+.articles .article_right h5 {
+  font-size: 24px;
+  margin: 0;
+}
+.articles .article_right .categories {
+  width: 100%;
+  height: 25%;
+}
+.articles .article_right .categories ul {
+  padding: 0;
+  list-style: none;
+  height: 95%;
+}
+.articles .article_right .categories ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.articles .article_right .categories ul li button {
+  width: 100%;
+}
+.articles .article_right .now_trending {
+  width: 100%;
+  height: 35%;
+}
+.articles .article_right .now_trending ul {
+  padding: 0;
+  height: 95%;
+  width: 100%;
+}
+.articles .article_right .now_trending ul li {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.articles .article_right .now_trending ul li p {
+  color: #787A80;
+  font-size: 14px;
+}
+.articles .article_right .now_trending ul li h6 {
+  font-size: 16px;
+  margin: 0;
+}
+.articles .article_right .tags {
+  height: 10%;
+  width: 100%;
+}
+.articles .article_right .tags ul {
+  padding: 0;
+  height: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.articles .article_right .tags ul li {
+  width: 100px;
+  height: 32px;
+}
+.articles .article_right .tags ul li button {
+  width: 100%;
+  height: 100%;
+}
+
+.subscribe {
+  width: 100%;
+  height: 50vh;
+  background-color: #F4F5F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe .sub {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribe .sub img {
+  width: 40%;
+}
+.subscribe .sub div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.subscribe .sub div h3 {
+  font-size: 46px;
+  margin: 0;
+}
+.subscribe .sub div .email {
+  width: 100%;
+  height: 15%;
+}
+.subscribe .sub div .email input {
+  width: 60%;
+  height: 100%;
+}
+
 footer {
   background-color: rgb(30, 33, 44);
   width: 100%;

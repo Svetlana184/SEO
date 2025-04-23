@@ -110,6 +110,160 @@ header {
         }
     }
 }
+.job_openings{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    width: 80vw;
+    height: 120vh;
+    .main_job{
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        li{
+            width: 100%;
+            height: 10%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .title_job{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 28px;
+                img{
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 20px;
+                }
+            }
+        }
+        .open_li{
+            height: 50%;
+            div{
+                width: 60%;
+                ul{
+                    list-style: disc;
+                }
+                h6, p, li{
+                    font-size: 16px;
+                    color: rgba(66, 69, 81, 1);
+                }
+                .title_job{
+                    width: 65%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+.contact_form{
+    margin-bottom: 15vh;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .left_contact{
+        width: 35%;
+        height: 40%;
+        h2{
+            font-size: 46px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .right_contact{
+        width: 55%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h6{
+            color: #424551;
+            font-size: 16px;
+            margin: 0;
+        }
+        input{
+            width: 100%;
+            height: 80%;
+            background-color: #D7DADD;
+            border: none;
+            border-radius: 10px;
+        }
+        .form_line1{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;  
+            div{
+                width: 45%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                form{
+                    width: 100%;
+                    height: 40%;
+                }
+            }
+        }
+        .form_line2{
+            height: 25%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items:flex-start;
+            form{
+                width: 100%;
+                height: 70%;
+                input{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .button_form{
+            display: flex;
+            flex-direction: row;
+            height: 10%;
+            width: 30%;
+            justify-content: space-between;
+            align-items: center;
+            button{
+                width: 26px;
+                height: 26px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                border: none;
+                img{
+                    width: 22px;
+                    height: 22px;
+                }
+            }
+        }
+        .form_check{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 10%;
+            width: 85%;
+            input{
+                margin: 0;
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+}
 footer {
     background-color: rgba(30, 33, 44, 1);
     width: 100%;
