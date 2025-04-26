@@ -182,6 +182,121 @@ header ul .li_main img {
   height: 20px;
 }
 
+.values {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.values h3 {
+  font-size: 46px;
+  width: 35%;
+}
+.values ul {
+  list-style: none;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.values ul li {
+  width: 45%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.values ul li h6 {
+  font-size: 20px;
+  margin: 0;
+}
+.values ul li img {
+  width: 48px;
+  height: 48px;
+}
+
+.gallery {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+.gallery .gal_pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.gallery .gal_pics .pic_3 {
+  width: 30%;
+}
+.gallery .gal_pics .pics_1 {
+  width: 40%;
+}
+.gallery .gal_pics .pics_1 img {
+  width: 100%;
+}
+.gallery .gal_text {
+  position: relative;
+  padding: 30px;
+  top: -120px;
+  width: 60%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  background-color: white;
+}
+.gallery .gal_text h4 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.awards {
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.awards img {
+  width: 25%;
+}
+.awards div {
+  width: 60%;
+  height: 60%;
+}
+.awards div h3 {
+  font-size: 46px;
+}
+.awards div ul {
+  height: 65%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.awards div ul li {
+  width: 45%;
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+}
+.awards div ul li img {
+  width: 75px;
+  height: 75px;
+}
+
 .CTA_form {
   width: 80%;
   height: 30vh;

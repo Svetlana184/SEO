@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     font-family: Lato;
 }
 
@@ -92,6 +93,150 @@ header {
         }
     }
 }
+.article_with_sidebar{
+    width: 80%;
+    height: 200vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    .article_left{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .header_art{
+            height: 5%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .share{
+                width: 30%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+        .other_posts{
+            height: 20%;
+            display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+        }
+        .main_art{
+            height: 70%;
+            .share {
+                    width: 30%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+            
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            .tags{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .tags_0{
+                    width: 50%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+            }
+        }
+        p, li{
+            color: #424551;
+        }
+        img{
+            width: 100%;
+        }
+        .big_p{
+            color: black;
+        }
+        .comment{
+            display: flex;
+            flex-direction: row;
+            img{
+                width: 28px;
+                height: 20px;
+            }
+        }
+    }
+    .sidebar{
+        width: 30%;
+        .now_trending {
+                width: 100%;
+                height: 35%;
+        
+                ul {
+                    padding: 0;
+                    height: 95%;
+                    width: 100%;
+        
+                    li {
+                        width: 100%;
+                        height: 30%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+        
+                        p {
+                            color: #787A80;
+                            font-size: 14px;
+                        }
+        
+                        h6 {
+                            font-size: 16px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        
+            .tags {
+                height: 10%;
+                width: 100%;
+        
+                ul {
+                    padding: 0;
+                    height: 95%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    list-style: none;
+        
+                    li {
+                        width: 100px;
+                        height: 32px;
+        
+                        button {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+    }
+}
+
 
 .subscribe {
     width: 100%;
@@ -139,7 +284,7 @@ header {
 }
 .articles{
     width: 80%;
-    height: 60vh;
+    height: 70vh;
     .testimonials_top {
             width: 100%;
             display: flex;
